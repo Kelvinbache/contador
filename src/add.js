@@ -3,6 +3,7 @@
 const numerosEnPantlla = document.getElementById("numero");
 const boton1 = document.getElementById("btn1");
 const boton2 = document.getElementById("btn2"); 
+const rest = document.getElementById("btn"); 
 
 
 /*primero para aumentar*/
@@ -15,7 +16,6 @@ function aumentar(){
 /*cada ves esta sumando 1 */ 
  comienxo ++;
  numerosEnPantlla.textContent = comienxo;
-
 };
 
 
@@ -31,4 +31,10 @@ else {
  numerosEnPantlla.textContent = comienxo; 
 }
 
+rest.addEventListener("click",nuevo);
 
+/*lo decuelve a cero*/
+function nuevo(){
+   comienxo = 0; 
+   numerosEnPantlla.textContent = comienxo; 
+}

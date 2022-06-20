@@ -1,0 +1,68 @@
+body{
+    background: #64559b;
+}
+
+.contador{
+    margin-left: 45px;
+    border-radius: 3px;
+    background: linear-gradient(145deg, #5a4d8c, #6b5ba6);
+    box-shadow:  27px 27px 54px #4b4074,
+                 -27px -27px 54px #7d6ac2;
+height: 45px;
+width:  250px;    
+}
+
+.titulo{
+    text-align: center;
+    padding: 10px;
+    font-size: 25px;
+}
+
+
+
+.contenedor{
+margin: 5rem 65vh;
+
+/*caja de contador*/
+border-radius: 20px;
+background: linear-gradient(145deg, #5a4d8c, #6b5ba6);
+box-shadow:  27px 27px 54px #4b4074,
+             -27px -27px 54px #7d6ac2;
+
+/*tamaño del contendor*/
+height: 50vh;
+width: 340px;
+}
+
+.numero{
+    text-align: center;
+    font-size: 45px;
+    padding-top: 60px ;
+}
+
+.todo{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    padding: 45px;
+}
+
+.btn1{
+    font-size: 20px;
+    padding: 8px;
+    width: 3rem;
+}
+
+
+.btn{
+    font-size: 20px;
+    padding: 8px;
+    margin: 0px 30px;
+    width: 3rem;
+}
+
+.btn2{
+    font-size: 20px;
+    padding: 8px;
+    width: 3rem;
+}
